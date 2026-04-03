@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmicutils",
+  "version": "${version}",
+  "name": "Performance Utils",
+  "description": "Performance and utility improvements for Cosmic Prisons.",
+  "authors": ["Volrish"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main":   ["com.volrish.meteorhud.MeteorHudMod"],
+    "client": ["com.volrish.meteorhud.client.MeteorHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api":   "*",
+    "minecraft":    "~1.21.11",
+    "java":         ">=21"
+  }
+}
